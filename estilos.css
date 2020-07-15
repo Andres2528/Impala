@@ -1,5 +1,5 @@
 body{
-  font-family: 'Bangers', cursive;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -21,14 +21,15 @@ li{
 
 .lista{
   display: flex;
+  font-size: 20px;
 }
 
 a{
   text-decoration: none;
   color: white;
   background: #F43F18;
-  padding: 20px 30px 20px 30px;
-  font-size: 25px;
+  padding: 18px 25px 18px 25px;
+  font-size: 18px;
 }
 
 .Titular{
@@ -57,4 +58,31 @@ header{
   max-width: 1280px;
   width: 90%;
   margin: auto;
+}
+
+/* Inicia seccion sobre mi */
+
+h3{
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+}
+
+.contenedor-sobremi{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contenedor-parrafo-boton{
+  width: 42%;
+}
+
+.contenedor-parrafo-boton p{
+  font-size: 16px;
+}
+
+.contenedor-parrafo-boton a{
+  margin-top: 20px;
+  display: inline-block;
 }
